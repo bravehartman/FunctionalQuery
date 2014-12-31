@@ -1,0 +1,13 @@
+﻿0.10.1 - 0.10.4
+Return Dictionary<string, DatabaseParameter> from Execute() to allow inline output and return parameters
+Allow Dictionary<string, DatabaseParameter> to be read from the Query object for debugging
+Bug fixes and performance enhancements for parameters
+
+0.10
+Major breaking changes
+Introduced Query object to separate calling database (setup) from getting results, also reduces API surface
+Parameters are now passed in as an object (e.g. new {Param1 = "value", Id = 234, })
+Removed CreateCommand from IDatabaseProvider
+
+0.9
+Initial Release

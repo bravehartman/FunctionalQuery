@@ -1,0 +1,11 @@
+﻿- Allow access to parameter with or without "@" (e.g. parameters["@Output"] or parameters["Output"])
+- Change from Dictionary<string, DatabaseParameter> to IDictionary<string, DatabaseParameter>
+- Add ability to pass in IEnumerables or IDictionary of DatabaseParameter or IDbDataParameter
+
+- Documentation
+- Add useful comments
+- Support transactions
+- Add support for XML returns
+- Add GetItems<dynamic>()
+- Add GetItems<Model>()
+- Add GetItems<Model>(object map)

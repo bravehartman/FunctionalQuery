@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalQuery", "FunctionalQuery\FunctionalQuery.csproj", "{D0CDDB4E-6923-4D81-82CF-B7D4C513E655}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A30AF92-9D1B-4F95-A3FE-04F0BD609370}"
+	ProjectSection(SolutionItems) = preProject
+		FunctionalQuery.vsmdi = FunctionalQuery.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FunctionalQuery.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0CDDB4E-6923-4D81-82CF-B7D4C513E655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CDDB4E-6923-4D81-82CF-B7D4C513E655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CDDB4E-6923-4D81-82CF-B7D4C513E655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CDDB4E-6923-4D81-82CF-B7D4C513E655}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
